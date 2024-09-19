@@ -1,0 +1,28 @@
+version: '3'
+services:
+  ftp-server:
+    image: fauria/vsftpd
+    ports:
+      - "21:21"
+      - "20:20"
+      - "21100-21110:21100-21110"
+    environment:
+      - FTP_USER=aluno
+      - FTP_PASS=123456
+      - PASV_ADDRESS=192.168.X.XXX #substituir pelo ip da sua maquina
+      - PASV_MIN_PORT=21100
+      - PASV_MAX_PORT=21110
+    volumes:
+      - ftp_volume:/home/vsftpd
+    restart: always
+
+  nginx:
+    image: nginx:latest
+    ports:
+      - "80:80"
+    volumes:
+      - ftp_volume:/usr/share/nginx/html
+    restart: always
+
+volumes:
+  ftp_volume:

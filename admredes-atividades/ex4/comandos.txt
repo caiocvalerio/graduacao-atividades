@@ -1,0 +1,9 @@
+* Para copiar o arquivo para dentro do container ftp:
+
+sudo docker cp arquivo-teste/arquivo.txt COLOCAR_AQUI_ID_CONTAINER_FTP:/home/vsftpd/arquivo.txt
+
+* Para acessar no nginx, colocar no browser:
+
+http://192.168.X.XXX/arquivo.txt
+
+onde 192.168.X.XXX é o ip a ser substituido pelo da sua maquina.
