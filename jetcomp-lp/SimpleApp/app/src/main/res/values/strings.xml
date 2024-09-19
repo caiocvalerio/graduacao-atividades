@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Simple App</string>
+    <string name="recipe_name">Stuffed Potato</string>
+    <string name="author_name">by The Flash</string>
+    <string name="how_to_prepare">How to Prepare</string>
+    <string name="recipe_stuffed_potato"> Estimated time: <font fgcolor='#FDBF50'>30min.</font> \n
+       * Remove the pulp from the two boiled potatoes, leaving a cavity in each one, set aside. \n
+       * In a container, mix the potato pulp with salt, pepper, egg, mozzarella cheese, fried bacon and cream, mix well. \n
+       * On a board, place the two potatoes and distribute a little mozzarella cheese in each cavity, the mixture of pulps, fried bacon, a little more mozzarella cheese on top, bacon and finish with chopped chives to taste. \n
+       * Place in the oven (230°C) for about 20 minutes.\n
+    </string>
+    <string name="footer_msg">\"Cooking is a wordless profession that can be done in any language.\"</string>
+    <string name="paola">Paola Carosella</string>
+</resources>
