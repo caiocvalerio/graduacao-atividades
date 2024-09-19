@@ -1,0 +1,3 @@
+# controlador-fuzzy-topicos-ia
+
+Controlador Fuzzy para um sistema de medição de temperatura(0 a 60 graus), onde as variáveis de entrada são a temperatura atual e a humidade(0 a 80%) e a saída deve emitir um alerta quanto as condições onde: Umidade Ideal: entre 70% e 40%; Estado de atenção: entre 30% e 21% Estado de alerta: entre 20% e 13% Estado de emergência: abaixo de 12% Situação muito ruim -> umidade alta e temperatura alta. Saída – ruim para corrida, bom para corrida, ótimo para corrida. Deve-se utilizar para as variáveis linguísticas cardinalidade 3, a regra do MaxMin e saída centro da área.
